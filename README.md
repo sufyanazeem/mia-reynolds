@@ -13,6 +13,10 @@ pnpm dev
 # or
 bun dev
 ```
+## Running the Backend Server
+
+The backend server is on JSON. To run the backend server, use the following command:
+## json-server --watch --port 4000 ./_data/db.json
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
