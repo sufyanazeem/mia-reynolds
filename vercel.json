@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "out"
+        }
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "scripts": {
+      "build": "npm run prebuild && npm run build"
+    }
+  }
+  
