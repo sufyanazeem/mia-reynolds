@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "start-json-server": "json-server --watch ./_data/db.json --port 4000",
-    "prebuild": "npm run start-json-server",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
